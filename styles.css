@@ -1,0 +1,37 @@
+* {box-sizing: border-box;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('background.jpg');
+	background-size: cover;
+}
+
+header {
+	background-image: url('grass.jpg');
+	background-position: bottom;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+#myimage {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.aritcle_title {
+	text-align: center;
+	font-size: 42px;
+}
+
+article {
+	margin: auto;
+	padding: 20px;
+	width: 70%;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	background-color: #f1f1f1;
+}
